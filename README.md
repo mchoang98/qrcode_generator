@@ -1,8 +1,11 @@
 # QR Flat UI Generator
 
+
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-2.x-black?logo=flask)](https://flask.palletsprojects.com/)
 [![License](https://img.shields.io/github/license/mchoang98/qrcode_generator)](LICENSE)
+[![QR Style](https://img.shields.io/badge/QR--Style-Flat%20UI-green)](#)
+[![Made by Phu Hoang](https://img.shields.io/badge/Made%20by-Phu%20Hoang-red)](#)
 
 A modern Flask-based web app that generates clean, scannable **QR codes** with embedded **logos**, following the Flat UI design style.
 
