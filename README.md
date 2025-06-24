@@ -4,7 +4,7 @@
 [![Flask](https://img.shields.io/badge/Flask-2.x-black?logo=flask)](https://flask.palletsprojects.com/)
 [![License](https://img.shields.io/github/license/mchoang98/qrcode_generator)](LICENSE)
 [![QR Style](https://img.shields.io/badge/QR--Style-Flat%20UI-green)](#)
-[![Made by Phú Hoàng](https://img.shields.io/badge/Made%20by-Anh%20Ph%C3%BA-red)](#)
+[![Made by Phu Hoang](https://img.shields.io/badge/Made%20by-Phu%20Hoang-red)](#)
 
 > A modern Flask-based web app that generates clean, scannable **QR Codes** with embedded **logos** — perfect for personal branding, marketing, or product packaging.
 
@@ -12,17 +12,17 @@
 
 ## 🚀 Features
 
-- ✨ Flat UI design — clean, minimal, highly scannable
-- 🖼️ Upload a logo or provide a direct image URL
-- 🔗 Embed logo directly at the center of your QR code
-- 📲 Export high-resolution `.png` file (800x800)
+- ✨ Flat UI design — clean, minimal, highly scannable  
+- 🖼️ Upload a logo or provide a direct image URL  
+- 🔗 Embed logo directly at the center of your QR code  
+- 📲 Export high-resolution `.png` file (800x800)  
 - ⚙️ Built with `Flask`, `Pillow`, `qrcode`, `requests`
 
 ---
 
 ## 📸 Preview
 
-![Preview](https://i.imgur.com/YOUR_SCREENSHOT.png) <!-- Replace this with your own hosted screenshot -->
+![Preview](screenshot.png) <!-- Replace with your real screenshot -->
 
 ---
 
