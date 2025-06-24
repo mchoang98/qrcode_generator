@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <title>QR Flat UI Generator</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; margin-top: 50px; }
+        input[type="text"], input[type="file"] { padding: 10px; width: 300px; margin: 10px; }
+        button { padding: 10px 30px; }
+    </style>
+</head>
+<body>
+    <h1>🔲 QR Flat UI Generator</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <p><input type="text" name="data" placeholder="Nội dung QR (link, text...)" required></p>
+        <p><input type="text" name="logo_url" placeholder="Hoặc dán URL ảnh logo (png, jpg)"></p>
+        <p>— hoặc upload ảnh logo —</p>
+        <p><input type="file" name="logo_file" accept="image/*"></p>
+        <p><button type="submit">Tạo mã QR</button></p>
+    </form>
+
+    {% if qr_path %}
+        <h2>Kết quả:</h2>
+        <img src="{{ url_for('static', filename='output/qr.png') }}" width="300">
+        <p><a href="{{ url_for('static', filename='output/qr.png') }}" download>Tải ảnh QR</a></p>
+    {% endif %}
+</body>
+</html>
