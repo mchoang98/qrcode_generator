@@ -20,7 +20,7 @@ A modern Flask-based web app that generates clean, scannable **QR codes** with e
 
 ## Screenshot
 
-![Preview](https://i.imgur.com/YOUR_SCREENSHOT.png) <!-- Replace with actual screenshot -->
+![Preview](screenshot.png) <!-- Replace with actual screenshot -->
 
 ---
 
