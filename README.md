@@ -1,50 +1,37 @@
-# 🔲 QR Flat UI Generator — Flask Web App
+# QR Flat UI Generator
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-2.x-black?logo=flask)](https://flask.palletsprojects.com/)
 [![License](https://img.shields.io/github/license/mchoang98/qrcode_generator)](LICENSE)
-[![QR Style](https://img.shields.io/badge/QR--Style-Flat%20UI-green)](#)
-[![Made by Phu Hoang](https://img.shields.io/badge/Made%20by-Phu%20Hoang-red)](#)
 
-> A modern Flask-based web app that generates clean, scannable **QR Codes** with embedded **logos** — perfect for personal branding, marketing, or product packaging.
+A modern Flask-based web app that generates clean, scannable **QR codes** with embedded **logos**, following the Flat UI design style.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✨ Flat UI design — clean, minimal, highly scannable  
-- 🖼️ Upload a logo or provide a direct image URL  
-- 🔗 Embed logo directly at the center of your QR code  
-- 📲 Export high-resolution `.png` file (800x800)  
-- ⚙️ Built with `Flask`, `Pillow`, `qrcode`, `requests`
-
----
-
-## 📸 Preview
-
-![Preview](screenshot.png) <!-- Replace with your real screenshot -->
+- Flat UI design — minimal and clean  
+- Upload logo or paste image URL  
+- Logo placed at center of QR code  
+- High-resolution PNG output (800×800)  
+- Built with Flask, Pillow, qrcode, requests
 
 ---
 
-## 💻 Live Demo (optional)
+## Screenshot
 
-Coming soon...
+![Preview](https://i.imgur.com/YOUR_SCREENSHOT.png) <!-- Replace with actual screenshot -->
 
 ---
 
-## 🧑‍💻 Installation
+## Installation
 
 ```bash
-# Clone this repository
 git clone https://github.com/mchoang98/qrcode_generator.git
 cd qrcode_generator
 
-# Create virtual environment (optional)
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 
-# Install dependencies
 pip install -r requirements.txt
-
-# Run the app
 python app.py
